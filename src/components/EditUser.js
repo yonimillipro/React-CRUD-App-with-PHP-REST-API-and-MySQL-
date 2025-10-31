@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 
-export default function ListUser() {
+export default function EditUser() {
     const navigate = useNavigate();
 
     const [inputs, setInputs] = useState([]);
